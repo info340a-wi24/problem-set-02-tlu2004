@@ -24,9 +24,9 @@ In particular, you will need to make the following changes:
 
 	- Headings should be **meaningful**, used for actual headings and not for styling. For example, the "Leave Comment" heading should be slightly smaller in appearance (like an h3 would be), but needs to stay an `h2`. Fix this by giving it the **`.text-small`** class; that will apply the provided CSS to make the element appear smaller (while still retaining it's semantic meaning).
 
-		Similarly, the "Posted last year" text isn't actually a heading (it isn't part of the table of contents). Instead, change that element to be a _paragraph_ with the class **`.time-posted`**; that class will apply the provided CSS to style the element (rather than using the styling provided by the `<h6>` tag). 
+		Similarly, the "Posted last year" text isn't actually a heading (it isn't part of the table of contents). Instead, change that element to be a _paragraph_ with the class **`.time-posted`**; that class will apply the provided CSS to style the element (rather than using the styling provided by the `<h6>` tag).
 
-3. HTML elements can also provide further annotations to help machines semantically understand them (for search engine optimization, etc). Wrap the words "last year" (in "Posted last year") in a [`<time>` element](https://css-tricks.com/time-element/). Be sure to include an attribute to indicate that the phrase "last year" in this case refers to the date "Sep 01, 2021" (check the documentation for how to do this). 
+3. HTML elements can also provide further annotations to help machines semantically understand them (for search engine optimization, etc). Wrap the words "last year" (in "Posted last year") in a [`<time>` element](https://css-tricks.com/time-element/). Be sure to include an attribute to indicate that the phrase "last year" in this case refers to the date "Sep 01, 2021" (check the documentation for how to do this).
 
 4. Make sure the image has an `alt` attribute so that is properly read by screen readers (the description is up to you&mdash;remember that `alt` should _finish_ the sentence "an image of...", but not include those words!).
 

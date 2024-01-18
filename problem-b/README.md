@@ -24,7 +24,7 @@ Instructions for producing this table are detailed below. Note that you will nee
 
   - To get rid of the border between the cells of the header, specify the _table's_ `border-collapse` CSS property to be `collapse`.
 
-4. Add an element representing the [table body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody) to the `<table>`. The table body should contain 5 _table rows_. Each row should contain 4 [table data cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) elements&mdash;one for each column. The first column (rank) should have the numbers 1 through 5. The remaining columns should have data about 5 different songs. 
+4. Add an element representing the [table body](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody) to the `<table>`. The table body should contain 5 _table rows_. Each row should contain 4 [table data cell](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td) elements&mdash;one for each column. The first column (rank) should have the numbers 1 through 5. The remaining columns should have data about 5 different songs.
 
   - The last column should contain images of the album covers. These images should be _links_ to where to hear the songs (a Spotify or Youtube link is fine). Give each link a [`target`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target) attribute so it opens in a new tab. Use CSS so that each album cover image is `100px` by `100px` in size.
 
